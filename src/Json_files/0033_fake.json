@@ -1,0 +1,46 @@
+{
+    "video_metadata": {
+      "video_name": "0033_fake.mp4",
+      "is_fake": "Fake",
+      "fake_confidence": 0.93,
+      "video_length": "00:05:30",
+      "frame_count": 108000,
+      "frame_rate": 30,
+      "resolution": "1920x1080",
+      "aspect_ratio": "16:9",
+      "file_size": "500MB",
+      "source" : "Gen-3_DF-UAV"
+    },
+    "anomalies": [
+      {
+        "anomaly_id": 1,
+        "name": "Facial Feature Misalignments",
+        "description": "Irregular positioning of facial features (eyes, nose, mouth).",
+        "Result":"Fake",
+        "Video_Median_Anomaly_Score" : [0.6126279062567765]
+      }, 
+      {
+        "anomaly_id": 2,
+        "name": "Lighting and Shadow Mismatches",
+        "description": "Inconsistent lighting across the face and body & Missing or inaccurate shadows.",
+        "Result": "Fake",
+        "Video_Median_Anomaly_Score": [0.1945712909808951]
+      },
+      {
+        "anomaly_id": 3,
+        "name": "Resolution Artifacts",
+        "description": "Differences in resolution between the face and the frame",
+        "Result": "Fake",
+        "Video_Median_Anomaly_Score": [26.72280266716949]
+      },
+      {
+        "anomaly_id": 4,
+        "name": "Compression Artifacts",
+        "description": "Over-compressed face regions",
+        "Result": "Fake",
+        "Video_Median_Anomaly_Score": [0.8690481981439012]
+      }
+      
+    ]
+  }
+  
